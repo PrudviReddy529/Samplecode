@@ -22,6 +22,7 @@ public class TestNG {
 	String url = driver.getTitle();
 	Assert.assertEquals(url, "Google");
 	}
+	//*************************@@@@@@@@@@@@@@#############
 	@Test (dependsOnMethods="verifyGoogleTitle")
 	public void verifyYahooTitle() {
 	driver.get("https://www.Yahoo.com/");
