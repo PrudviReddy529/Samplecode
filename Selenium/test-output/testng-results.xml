@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="multiple" duration-ms="72" started-at="2019-02-23T12:35:29Z" finished-at="2019-02-23T12:35:29Z">
+    <groups>
+    </groups>
+    <test name="vendor" duration-ms="72" started-at="2019-02-23T12:35:29Z" finished-at="2019-02-23T12:35:29Z">
+      <class name="abcd.Sample2">
+        <test-method status="PASS" signature="DeleteVendor()[pri:4, instance:abcd.Sample2@d8355a8]" name="DeleteVendor" duration-ms="1" started-at="2019-02-23T12:35:29Z" finished-at="2019-02-23T12:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteVendor -->
+        <test-method status="PASS" signature="DeleteProduct()[pri:5, instance:abcd.Sample2@d8355a8]" name="DeleteProduct" duration-ms="2" started-at="2019-02-23T12:35:29Z" finished-at="2019-02-23T12:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProduct -->
+        <test-method status="PASS" signature="DeleteCurrency()[pri:6, instance:abcd.Sample2@d8355a8]" name="DeleteCurrency" duration-ms="2" started-at="2019-02-23T12:35:29Z" finished-at="2019-02-23T12:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCurrency -->
+      </class> <!-- abcd.Sample2 -->
+      <class name="abcd.Sample1">
+        <test-method status="PASS" signature="login()[pri:0, instance:abcd.Sample1@46d56d67]" name="login" is-config="true" duration-ms="16" started-at="2019-02-23T12:35:29Z" finished-at="2019-02-23T12:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addVendor()[pri:1, instance:abcd.Sample1@46d56d67]" name="addVendor" duration-ms="8" started-at="2019-02-23T12:35:29Z" finished-at="2019-02-23T12:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addVendor -->
+        <test-method status="PASS" signature="addProduct()[pri:2, instance:abcd.Sample1@46d56d67]" name="addProduct" duration-ms="5" started-at="2019-02-23T12:35:29Z" finished-at="2019-02-23T12:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="addCurrency()[pri:3, instance:abcd.Sample1@46d56d67]" name="addCurrency" duration-ms="2" started-at="2019-02-23T12:35:29Z" finished-at="2019-02-23T12:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCurrency -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:abcd.Sample1@46d56d67]" name="logout" is-config="true" duration-ms="0" started-at="2019-02-23T12:35:29Z" finished-at="2019-02-23T12:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- abcd.Sample1 -->
+    </test> <!-- vendor -->
+  </suite> <!-- multiple -->
+</testng-results>
