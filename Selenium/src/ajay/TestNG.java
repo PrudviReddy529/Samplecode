@@ -15,6 +15,7 @@ public class TestNG {
 	System.setProperty("webdriver.chrome.driver", "G:\\SELENIUM\\new selenium\\Selenium\\drivers\\chromedriver.exe");				
     driver = new ChromeDriver();	
 	}
+	//**************************
 	@Test (priority=1)
 	public void verifyGoogleTitle() {
 	driver.get("https://www.google.com/");
