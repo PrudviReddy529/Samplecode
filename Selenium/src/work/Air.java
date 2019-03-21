@@ -19,7 +19,7 @@ public class Air {
 	 
 	public static void main(String[] args) {
 		
-	   	   
+	   	   //********************************************************
 	   System.setProperty("webdriver.chrome.driver", "G:\\SELENIUM\\new selenium\\Selenium\\drivers\\chromedriver.exe");
        WebDriver driver=new ChromeDriver();
        driver.manage().window().maximize();
